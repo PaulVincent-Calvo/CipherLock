@@ -27,7 +27,7 @@ Ciphers are used to encrypt messages and render them unreadable to unauthorized 
 
 ## Team Members and Contributions
 1. [Antony, Aldrich Ryan](https://github.com/MisterCryptic)
-   
+   **- Base64 Cipher**  
 2. [Calvo, Paul Vincent](https://github.com/PaulVincent-Calvo)   
    **- Caesar Cipher**    
    **- Substitution Cipher**      
