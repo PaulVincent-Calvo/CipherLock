@@ -26,8 +26,8 @@ Ciphers are a fundamental component of modern cryptography which is why it is an
 Ciphers are used to encrypt messages and render them unreadable to unauthorized parties, preserving confidentiality and guarding against interceptions and theft of important information. Additionally, they are utilized in numerous security systems, including online banking and e-commerce, to restrict access and safeguard critical information.
 
 ## Team Members and Contributions
-1. [Antony, Aldrich Ryan](https://github.com/MisterCryptic)  
-   **- Base64 Cipher**  
+1. [Antony, Aldrich Ryan](https://github.com/MisterCryptic)    
+   **- Base64 Cipher**    
 2. [Calvo, Paul Vincent](https://github.com/PaulVincent-Calvo)   
    **- Caesar Cipher**    
    **- Substitution Cipher**      
