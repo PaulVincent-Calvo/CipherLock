@@ -28,13 +28,13 @@ Ciphers are used to encrypt messages and render them unreadable to unauthorized 
 ## Team Members and Contributions
 #### 1. [Antony, Aldrich Ryan (21-03781)](https://github.com/MisterCryptic)    
    **- Base64 Cipher**    
-2. [Calvo, Paul Vincent (22-09188)](https://github.com/PaulVincent-Calvo)   
+#### 2. [Calvo, Paul Vincent (22-09188)](https://github.com/PaulVincent-Calvo)   
    **- Caesar Cipher**    
    **- Substitution Cipher**      
    **- Vigenère Cipher**    
-3. [Deduque, Julianne Antoinette (22-07161)](https://github.com/jasd927)  
+#### 3. [Deduque, Julianne Antoinette (22-07161)](https://github.com/jasd927)  
    **- Hill Cipher**  
-4. [Peñaflorida, Ace (22-09628)](https://github.com/ace-penaflorida-CS1203)  
+#### 4. [Peñaflorida, Ace (22-09628)](https://github.com/ace-penaflorida-CS1203)  
    **- Matrix Inverse Cipher**  
    **- RSA Cipher**  
 
