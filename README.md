@@ -32,5 +32,9 @@ Ciphers are used to encrypt messages and render them unreadable to unauthorized 
    **- Caesar Cipher**    
    **- Substitution Cipher**      
    **- Vigenère Cipher**    
-4. [Deduque, Julianne Antoinette](https://github.com/jasd927)
-5. [Peñaflorida, Ace](https://github.com/ace-penaflorida-CS1203)
+3. [Deduque, Julianne Antoinette](https://github.com/jasd927)  
+   **- hill Cipher**  
+4. [Peñaflorida, Ace](https://github.com/ace-penaflorida-CS1203)  
+   **- Matrix Inverse Cipher**  
+   **- RSA Cipher**  
+
