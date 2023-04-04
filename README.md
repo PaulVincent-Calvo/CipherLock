@@ -29,7 +29,7 @@ Ciphers are used to encrypt messages and render them unreadable to unauthorized 
 1. [Antony, Aldrich Ryan](https://github.com/MisterCryptic)
    
 2. [Calvo, Paul Vincent](https://github.com/PaulVincent-Calvo)  
-   **- Caesar Cipher**
+   **- Caesar Cipher**  
    **- Substitution Cipher**    
    **- Vigenère Cipher**  
 4. [Deduque, Julianne Antoinette](https://github.com/jasd927)
