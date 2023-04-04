@@ -15,12 +15,12 @@ The Cipher Program is intended to encrypt or decrypt messages using various ciph
 
 ## Significance
 
+### History 
+Governments, military organizations, and private individuals have all utilized ciphers to communicate secret messages throughout history.
+
 ### Cryptography
 Cryptography is the science of making information secure. It is utilized in many different contexts, such as secure communication, digital signatures, and cybersecurity. 
 Ciphers are a fundamental component of modern cryptography which is why it is an essential area of study. 
-
-### History 
-Governments, military organizations, and private individuals have all utilized ciphers to communicate secret messages throughout history.
 
 ### Confidentiality and Security
 Ciphers are used to encrypt messages and render them unreadable to unauthorized parties, preserving confidentiality and guarding against interceptions and theft of important information. Additionally, they are utilized in numerous security systems, including online banking and e-commerce, to restrict access and safeguard critical information.
