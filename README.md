@@ -60,7 +60,7 @@ It nurtures Decent Work and Economic Growth by enhancing cybersecurity which can
 
 ### [**Industry, Innovation, and Infastructure**](https://sdgs.un.org/goals/goal9 "SDG 9: Industry, Innovation, and Infastructure")
 
-
+The project contributes to Industry, Innovation, and Infastructure by encouraging collaboration as it requires knowledge in multiple fields of study. Moreover, it may also be used by businesses to encrypt their messages as they communicate with one another to be sure that nothing they say gets leaked.  By fostering collaboration and partnerships, innovations and progress can be achieved.
 
 <p align="center">
   <picture align="center">
