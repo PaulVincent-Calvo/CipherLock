@@ -80,6 +80,11 @@ The project contributes to Industry, Innovation, and Infastructure by encouragin
  </picture>
 </p>
 
+## Modules Used
+- string
+- numpy
+- random
+
 ## Team Members and Contributions
 1. [Antony, Aldrich Ryan (21-03781)](https://github.com/MisterCryptic)    
    **- Base64 Cipher**    
