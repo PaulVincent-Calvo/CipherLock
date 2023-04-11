@@ -27,7 +27,7 @@ Ciphers are used to encrypt messages and render them unreadable to unauthorized 
 ## How it Contributes to [UN's SDG](https://education.nationalgeographic.org/resource/sustainable-development-goals/ "Sustainable Development Goals")
 The Cipher Program contributes to these 4 United Nation's Sustainabe Development Goals (SDG). 
 
-### [**Good Health and Well-Being**](https://sdgs.un.org/goals/goal3 ""SDG 3: Good Health and Well-Being)
+### [**Good Health and Well-Being**](https://sdgs.un.org/goals/goal3 "SDG 3: Good Health and Well-Being")
 <p align="center">
   <picture align="center">
     <img alt="SDG 3: Good Health and Well-Being" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_03.png" width="250" height="250">
