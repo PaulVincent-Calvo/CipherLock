@@ -28,39 +28,36 @@ Ciphers are used to encrypt messages and render them unreadable to unauthorized 
 The Cipher Program contributes to these 4 United Nation's Sustainabe Development Goals (SDG). 
 
 ### [**Good Health and Well-Being**](https://sdgs.un.org/goals/goal3 "SDG 3: Good Health and Well-Being")
-<p align="center">
-  <picture align="center">
-    <img alt="SDG 3: Good Health and Well-Being" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_03.png" width="250" height="250">
-    </a>
- </picture>
-</p>
   
 The Cipher Program promotes Good Health and Well-Being by providing a sense of security and privacy in communication since protecting personal information is essential especially in today's age where cyber threats are prevalent.
 
 <p align="center">
   <picture align="center">
-    <a href="https://sdgs.un.org/goals/goal4" target="_blank">
-    <img alt="SDG 4: Quality Education" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_04.png" width="250" height="250">
-    </a>
+    <img alt="SDG 3: Good Health and Well-Being" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_03.png" width="250" height="250">
  </picture>
 </p>
-  
+
+### [**Quality Education**](https://sdgs.un.org/goals/goal4 "SDG 4: Quality Education")
+
 The project promotes Quality Education by encouraging critical thinking skills and enhancing problem-solving skills, enhancing digital literacy, and supporting interdisciplinary learning. It encrourages critical thinking skills and enhances problem-solving skills because the program involves the use of complex algorithms that require these skills to understand it. Furthermore, it also enhances digital literacy as it can help people learn the basics of encryption and data security. Lastly, it supports interdisciplinary learning since it requires knowledge from various fields, including mathematics, computer science, and linguistics.
 
 <p align="center">
   <picture align="center">
-    <a href="https://sdgs.un.org/goals/goal8" target="_blank">
-    <img alt="SDG 8: Decent Work and Economic Growth" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_08.png" width="250" height="250">
-    </a>
+    <img alt="SDG 4: Quality Education" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_04.png" width="250" height="250">
  </picture>
 </p>
 
-  
+### [**Decent work and Economic Growth**](https://sdgs.un.org/goals/goal8 "SDG 8: Decent Work and Economic Growth")
 <p align="center">
   <picture align="center">
-    <a href="https://sdgs.un.org/goals/goal9" target="_blank">
+    <img alt="SDG 8: Decent Work and Economic Growth" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_08.png" width="250" height="250">
+ </picture>
+</p>
+
+### [**Industry, Innovation, and Infastructure**](https://sdgs.un.org/goals/goal9 "SDG 9: Industry, Innovation, and Infastructure")
+<p align="center">
+  <picture align="center">
     <img alt="SDG 9: Industry, innovation, and Infastructure" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_09.png" width="250" height="250">
-     </a>
  </picture>
 </p>
 
