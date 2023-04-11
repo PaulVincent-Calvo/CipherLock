@@ -14,6 +14,19 @@ The Cipher Program is intended to encrypt or decrypt messages using various ciph
 
 ##  Flowchart 
 
+<p align="center">
+  <picture align="center">
+    <img alt="Flowchart Page 1" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/5a241771d9b8d966f0b3419d8a49eb1c20c2d199/assets%20for%20readme%20file/Flowchart%20Page%201.jpeg" width="600" height="300">
+ </picture>
+</p>
+
+<p align="center">
+  <picture align="center">
+    <img alt="SDG 8: Decent Work and Economic Growth" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_08.png" width="250" height="250">
+ </picture>
+</p>
+
+
 ## Significance
 
 ### History 
