@@ -16,7 +16,7 @@ The Cipher Program is intended to encrypt or decrypt messages using various ciph
 
 <p align="center">
   <picture align="center">
-    <img alt="Flowchart Page 1" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/5a241771d9b8d966f0b3419d8a49eb1c20c2d199/assets%20for%20readme%20file/Flowchart%20Page%201.jpeg" width="2000" height="600">
+    <img alt="Flowchart Page 1" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/e9298ee093ad01e185303ac1bd8536216ad4d7cf/assets%20for%20readme%20file/Flowchart%20Page%201.jpg" width="2000" height="600">
  </picture>
 </p>
 
