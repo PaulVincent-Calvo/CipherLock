@@ -12,6 +12,7 @@ The Cipher Program is intended to encrypt or decrypt messages using various ciph
 6. [**RSA Algorithm**](https://www.geeksforgeeks.org/rsa-algorithm-cryptography/?ref=lbp "What is the RSA Algorithm")
 7. [**Base64 Cipher**](https://datacadamia.com/crypto/base64 "What is the Base64 Cipher")
 
+##  Flowchart 
 
 ## Significance
 
@@ -39,7 +40,7 @@ The Cipher Program promotes Good Health and Well-Being by providing a sense of s
 
 ### [**Quality Education**](https://sdgs.un.org/goals/goal4 "SDG 4: Quality Education")
 
-The project promotes Quality Education by encouraging critical thinking skills and enhancing problem-solving skills, enhancing digital literacy, and supporting interdisciplinary learning. It encrourages critical thinking skills and enhances problem-solving skills because the program involves the use of complex algorithms that require these skills to understand it. Furthermore, it also enhances digital literacy as it can help people learn the basics of encryption and data security. Lastly, it supports interdisciplinary learning since it requires knowledge from various fields, including mathematics, computer science, and linguistics.
+The project cultivates Quality Education by encouraging critical thinking skills and enhancing problem-solving skills, enhancing digital literacy, and supporting interdisciplinary learning. It encrourages critical thinking skills and enhances problem-solving skills because the program involves the use of complex algorithms that require these skills to understand it. Furthermore, it also enhances digital literacy as it can help people learn the basics of encryption and data security. Lastly, it supports interdisciplinary learning since it requires knowledge from various fields, including mathematics, computer science, and linguistics.
 
 <p align="center">
   <picture align="center">
@@ -47,7 +48,10 @@ The project promotes Quality Education by encouraging critical thinking skills a
  </picture>
 </p>
 
-### [**Decent work and Economic Growth**](https://sdgs.un.org/goals/goal8 "SDG 8: Decent Work and Economic Growth")
+### [**Decent Work and Economic Growth**](https://sdgs.un.org/goals/goal8 "SDG 8: Decent Work and Economic Growth")
+
+It nurtures Decent Work and Economic Growth by enhancing cybersecurity which can allow businesses to operate more securely increasing consumer trust that can lead to economic growth. Moreover, it also promotes the protection of intellectual property such as trade secrets, patents, and coprights. The protection of these also allow for businesses to avert security threats that can also lead to economic growth.
+
 <p align="center">
   <picture align="center">
     <img alt="SDG 8: Decent Work and Economic Growth" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_08.png" width="250" height="250">
@@ -55,6 +59,9 @@ The project promotes Quality Education by encouraging critical thinking skills a
 </p>
 
 ### [**Industry, Innovation, and Infastructure**](https://sdgs.un.org/goals/goal9 "SDG 9: Industry, Innovation, and Infastructure")
+
+
+
 <p align="center">
   <picture align="center">
     <img alt="SDG 9: Industry, innovation, and Infastructure" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_09.png" width="250" height="250">
@@ -74,4 +81,3 @@ The project promotes Quality Education by encouraging critical thinking skills a
    **- Matrix Inverse Cipher**  
    **- RSA Cipher**  
 
-##  Flowchart 
