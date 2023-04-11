@@ -33,6 +33,7 @@ The Cipher Program contributes to these 4 United Nation's Sustainabe Development
     <img alt="SDG 3: Good Health and Well-Being" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_03.png" width="250" height="250">
   </picture>
 </p>
+  
 The Cipher Program promotes Good Health and Well-Being by providing a sense of security and privacy in communication since protecting personal information is essential especially in today's age where cyber threats are prevalent.
 
 <p align="center">
@@ -41,6 +42,7 @@ The Cipher Program promotes Good Health and Well-Being by providing a sense of s
     <img alt="SDG 4: Quality Education" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_04.png" width="250" height="250">
   </picture>
 </p>
+  
 The project promotes Quality Education by encouraging critical thinking skills and enhancing problem-solving skills, enhancing digital literacy, and supporting interdisciplinary learning. It encrourages critical thinking skills and enhances problem-solving skills because the program involves the use of complex algorithms that require these skills to understand it. Furthermore, it also enhances digital literacy as it can help people learn the basics of encryption and data security. Lastly, it supports interdisciplinary learning since it requires knowledge from various fields, including mathematics, computer science, and linguistics.
 
 <p align="center">
@@ -50,6 +52,8 @@ The project promotes Quality Education by encouraging critical thinking skills a
   </picture>
 </p>
 
+  
+  
 <p align="center">
   <picture align="center">
     <a href="https://sdgs.un.org/goals/goal4" target="_blank">
