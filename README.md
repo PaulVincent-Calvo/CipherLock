@@ -31,28 +31,28 @@ The Cipher Program contributes to the United Nation's Sustainabe Development Goa
 <p align="center">
   <picture align="center">
     <a href="https://sdgs.un.org/goals/goal3" target="_blank">
-    <img alt="SDG 4: Quality Education" src="https://github.com/Gteknolohiya/organix/blob/main/assets/E_SDG_Icons-04.jpg" width="250" height="250">
+    <img alt="SDG 3: Good Health and Well-Being" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_03.png" width="250" height="250">
   </picture>
 </p>
   
 <p align="center">
   <picture align="center">
     <a href="https://sdgs.un.org/goals/goal4" target="_blank">
-    <img alt="SDG 4: Quality Education" src="https://github.com/Gteknolohiya/organix/blob/main/assets/E_SDG_Icons-04.jpg" width="250" height="250">
+    <img alt="SDG 4: Quality Education" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_04.png" width="250" height="250">
   </picture>
 </p>
 
 <p align="center">
   <picture align="center">
     <a href="https://sdgs.un.org/goals/goal4" target="_blank">
-    <img alt="SDG 4: Quality Education" src="https://github.com/Gteknolohiya/organix/blob/main/assets/E_SDG_Icons-04.jpg" width="250" height="250">
+    <img alt="SDG 8: Decent Work and Economic Growth" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_08.png" width="250" height="250">
   </picture>
 </p>
 
 <p align="center">
   <picture align="center">
     <a href="https://sdgs.un.org/goals/goal4" target="_blank">
-    <img alt="SDG 4: Quality Education" src="https://github.com/Gteknolohiya/organix/blob/main/assets/E_SDG_Icons-04.jpg" width="250" height="250">
+    <img alt="SDG 9: Industry, innovation, and Infastrucutre" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_09.png" width="250" height="250">
   </picture>
 </p>
 
