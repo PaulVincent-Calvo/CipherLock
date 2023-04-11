@@ -22,10 +22,9 @@ The Cipher Program is intended to encrypt or decrypt messages using various ciph
 
 <p align="center">
   <picture align="center">
-    <img alt="SDG 8: Decent Work and Economic Growth" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_08.png" width="250" height="250">
+    <img alt="Flowchart Page 2" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/b8d7bf001ee489ce4fc6d81a32b0f1cfbe9fcefe/assets%20for%20readme%20file/Flowchart%20Page%202.jpeg" width="2000" height="600">
  </picture>
 </p>
-
 
 ## Significance
 
