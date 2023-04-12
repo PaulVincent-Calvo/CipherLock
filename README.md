@@ -8,7 +8,7 @@
 
 ### <p align="center"> A Cipher program intended to encrypt or decrypt messages using various ciphers. </p>
 
-### Ciphers to be used in the program
+## Ciphers to be used in the program
 1. [**Caesar Cipher**](https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/ "What is the Caesar Cipher")
 2. [**Substitution Cipher**](https://www.geeksforgeeks.org/substitution-cipher/?ref=lbp "What is the Substitution Cipher")
 3. [**Vigenère Cipher**](https://www.geeksforgeeks.org/vigenere-cipher/?ref=lbp "What is the Vigenère Cipher")
