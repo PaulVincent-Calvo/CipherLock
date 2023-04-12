@@ -1,4 +1,10 @@
-# Cipher Program
+# CipherLock
+
+<p align="center">
+  <picture align="center">
+    <img alt="Flowchart Page 1" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/0151d25b83591d0d78b65fba859b551bcc61a000/assets%20for%20readme%20file/CipherLockLogo.png" width="600" height="600">
+ </picture>
+</p>
 
 ## Description
 The Cipher Program is intended to encrypt or decrypt messages using various ciphers. 
