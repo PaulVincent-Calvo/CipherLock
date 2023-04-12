@@ -6,7 +6,7 @@
  </picture>
 </p>
 
-### <p align="center"> A Cipher program intended to encrypt or decrypt messages using various ciphers. </p>
+#### <p align="center"> A Cipher program intended to encrypt or decrypt messages using various ciphers. </p>
 
 ## Ciphers to be used in the program
 1. [**Caesar Cipher**](https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/ "What is the Caesar Cipher")
