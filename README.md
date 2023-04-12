@@ -26,6 +26,11 @@ The Cipher Program is intended to encrypt or decrypt messages using various ciph
  </picture>
 </p>
 
+## Modules Used
+- numpy
+- random
+- string
+
 ## Significance
 
 ### History 
@@ -79,11 +84,6 @@ The project contributes to Industry, Innovation, and Infastructure by encouragin
     <img alt="SDG 9: Industry, innovation, and Infastructure" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/dd509bccf8371e2cc2b02caf43355ce6907924b6/assets%20for%20readme%20file/E_WEB_09.png" width="250" height="250">
  </picture>
 </p>
-
-## Modules Used
-- string
-- numpy
-- random
 
 ## Team Members and Contributions
 1. [Antony, Aldrich Ryan (21-03781)](https://github.com/MisterCryptic)    
