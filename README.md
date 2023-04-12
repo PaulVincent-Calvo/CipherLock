@@ -33,6 +33,7 @@
 
 ## Modules Used
 - numpy
+- math
 - random
 - string
 
