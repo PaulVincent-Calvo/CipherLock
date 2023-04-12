@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-   ### A Cipher program intended to encrypt or decrypt messages using various ciphers.
+### A Cipher program intended to encrypt or decrypt messages using various ciphers.
 </p>
 
 ### Ciphers to be used in the program
