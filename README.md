@@ -1,4 +1,4 @@
-# CipherLock
+# <p align="center"> CipherLock </p>
 
 <p align="center">
   <picture align="center">
@@ -6,8 +6,9 @@
  </picture>
 </p>
 
-## Description
-The Cipher Program is intended to encrypt or decrypt messages using various ciphers. 
+<p align="center">
+  A Cipher program intended to encrypt or decrypt messages using various ciphers.
+</p>
 
 ### Ciphers to be used in the program
 1. [**Caesar Cipher**](https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/ "What is the Caesar Cipher")
