@@ -2,7 +2,7 @@
 
 <p align="center">
   <picture align="center">
-    <img alt="Flowchart Page 1" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/0151d25b83591d0d78b65fba859b551bcc61a000/assets%20for%20readme%20file/CipherLockLogo.png" width="200" height="200">
+    <img alt="Flowchart Page 1" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/0151d25b83591d0d78b65fba859b551bcc61a000/assets%20for%20readme%20file/CipherLockLogo.png" width="100" height="100">
  </picture>
 </p>
 
