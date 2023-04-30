@@ -1,0 +1,3 @@
+prototype 3 not final
+the code wil be cleaned up 
+will also add input validation
