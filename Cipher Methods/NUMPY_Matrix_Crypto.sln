@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "NUMPY_Matrix_Crypto", "NUMPY_Matrix_Crypto.pyproj", "{B75A1ABC-4B3A-45C8-80BA-A13D91824F14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B75A1ABC-4B3A-45C8-80BA-A13D91824F14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B75A1ABC-4B3A-45C8-80BA-A13D91824F14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF1478B3-F885-4315-8147-58895D5434C0}
+	EndGlobalSection
+EndGlobal
