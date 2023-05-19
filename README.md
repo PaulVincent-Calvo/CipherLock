@@ -19,7 +19,7 @@
 ##  UML Diagram 
 <p align="center">
   <picture align="center">
-    <img alt="uml" src="assets for readme file/uml.png" width="2000" height="600">
+    <img alt="final_uml" src="assets for readme file/final_uml.png" width="2000" height="600">
  </picture>
 </p>
 
