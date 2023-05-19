@@ -44,6 +44,8 @@
 - math
 - random
 - string
+- pandas
+- secret
 
 ## Significance
 
