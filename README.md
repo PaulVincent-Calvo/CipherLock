@@ -107,8 +107,9 @@ The project contributes to Industry, Innovation, and Infastructure by encouragin
    **- Substitution Cipher**      
    **- Vigenère Cipher**    
 3. [Deduque, Julianne Antoinette (22-07161)](https://github.com/jasd927)  
-   **- RSA Cipher**  
+   **- Hill Cipher**  
+   *temporarily unable to post her code due to health problems*
 4. [Peñaflorida, Ace (22-09628)](https://github.com/ace-penaflorida-CS1203)  
    **- Matrix Inverse Cipher**  
-
+   **- RSA Cipher** 
 
