@@ -16,7 +16,7 @@
 5. [**RSA Algorithm**](https://www.geeksforgeeks.org/rsa-algorithm-cryptography/?ref=lbp "What is the RSA Algorithm")
 6. [**Base64 Cipher**](https://datacadamia.com/crypto/base64 "What is the Base64 Cipher")
 
-##  Flowchart 
+##  UML Diagram 
 <p align="center">
   <picture align="center">
     <img alt="Flowchart Page 1" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/247907b750c25c0c6f28566ca783107c1d23d502/assets%20for%20readme%20file/Flowchart%20Page%201.jpg" width="2000" height="600">
