@@ -1,10 +1,40 @@
 import sys
 import os
 import msvcrt as m
+import pandas as pd
 
 # Clearing Terminal
 def clear(): os.system('cls')
 clear()
+
+def csv(data_encode):
+    csv_data_encode = pd.DataFrame(data_encode)
+    csv_data_encode.to_csv('Base64.csv', mode = 'a', index = False, header = False)
+    # ------------------------------------------------------------------------------
+
+def main_home():
+  print("\n\nACTION:\n    1: ENCODE\n    2: DECODE\n    3: HISTORY")
+
+  user_act = int(input("\n   Enter: "))
+  
+  if user_act == 1:
+    user_message = str(input("Please type the message you want to encrypt: "))
+    base64_obj = base64_cipher(user_message)
+    base64_obj.print_encryption(user_message)
+    go_home()
+
+  if user_act == 2:
+    user_message = str(input("Please type the message you want to decrypt: "))
+    base64_obj = base64_cipher(user_message)
+    base64_obj.print_decryption(user_message)
+    go_home()
+    
+  if user_act == 3:
+    os.system('cls')
+    dataset = pd.read_csv('Base64.csv') # reads the csv file and its content
+    print(dataset)
+    go_home()
+
 
 class base64_cipher:
     def __init__ (self, user_message):
@@ -41,6 +71,9 @@ class base64_cipher:
             encoded += base64chars[index]
 
         encoded += ending
+        data_encode = {"Method": 'Encode', '|': '|', "Word/Values": [user_message],'Data': ':','Decoded/Encoded Words/Values': [encoded]}
+        csv(data_encode)
+
         return encoded
        
     def base64_decryption (self, user_message):
@@ -75,6 +108,9 @@ class base64_cipher:
         
         # Remove padding
         decoded = decoded[0:len( decoded ) - padd]
+        data_encode = {"Method": 'Encode', '|': '|', "Word/Values": [user_message],'Data': ':','Decoded/Encoded Words/Values': [decoded]}
+        csv(data_encode) # calling the function
+
         return decoded
     
     def print_encryption (self, user_message):
@@ -84,9 +120,9 @@ class base64_cipher:
         print ("The decrypted message is " + self.base64_decryption(user_message))
 
 
-user_message = str(input("Please type the message you want to encrypt: "))
-base64_obj = base64_cipher(user_message)
+def go_home():
 
-base64_obj.print_encryption(user_message)
-user_message = str(input("Please type the message you want to decrypt: "))
-base64_obj.print_decryption(user_message)
+    main_home()
+
+main_home()
+
