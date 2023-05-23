@@ -378,10 +378,10 @@ class CipherLockGUI():
         # creating the buttons a
         shift_cipher_button = tk.Button(self.cipherlock_window, text="Shift Cipher", command=self.shift_cipher_clicked, font=("Arial", 14))
         caesar_cipher_button = tk.Button(self.cipherlock_window, text="Caesar Cipher", command=self.caesar_cipher_clicked, font=("Arial", 14))
-        vigenere_cipher_button = tk.Button(self.cipherlock_window, text="Vigenere Cipher", command=vigenere_cipher_clicked, font=("Arial", 14))
-        hill_cipher_button = tk.Button(self.cipherlock_window, text="Hill Cipher", command=hill_cipher_clicked, font=("Arial", 14))
-        matrix_inverse_cipher_button = tk.Button(self.cipherlock_window, text="Matrix Inverse", command=matrix_inverse_cipher_clicked, font=("Arial", 14))
-        rsa_cipher_button = tk.Button(self.cipherlock_window, text="RSA Cipher", command=rsa_cipher_clicked, font=("Arial", 14))
+        vigenere_cipher_button = tk.Button(self.cipherlock_window, text="Vigenere Cipher", command=self.vigenere_cipher_clicked, font=("Arial", 14))
+        hill_cipher_button = tk.Button(self.cipherlock_window, text="Hill Cipher", command=self.hill_cipher_clicked, font=("Arial", 14))
+        matrix_inverse_cipher_button = tk.Button(self.cipherlock_window, text="Matrix Inverse", command=self.matrix_inverse_cipher_clicked, font=("Arial", 14))
+        rsa_cipher_button = tk.Button(self.cipherlock_window, text="RSA Cipher", command=self.rsa_cipher_clicked, font=("Arial", 14))
         base64_cipher_button = tk.Button(self.cipherlock_window, text="Base64 Cipher", command=self.base64_cipher_clicked, font=("Arial", 14))
 
         shift_cipher_button.grid(row=0, column=0, sticky="nsew")
@@ -398,19 +398,6 @@ class CipherLockGUI():
 
         # Run the main cipherlock_window's event loop
         self.cipherlock_window.mainloop()
-
-def vigenere_cipher_clicked():
-    print("Vigenere Cipher clicked!")
-    
-def hill_cipher_clicked():
-    print("Hill clicked!")
-
-def matrix_inverse_cipher_clicked():
-    print("Matrix Inverse Cipher clicked!")
-
-def rsa_cipher_clicked():
-    print("RSA Cipher clicked!")
-
 
 obj1 = CipherLockGUI()
 obj1.main()
