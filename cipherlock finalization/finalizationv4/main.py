@@ -1,5 +1,6 @@
 import os
 import CiphersForCipherLock
+from CiphersForCipherLock import Rsa
 
 class CipherLock_main():
     def __init__(self):
@@ -402,22 +403,45 @@ class CipherLock_main():
         # declared outside the if-else loop to make the code shorter
         choices2 = ["Return to the Matrix Inverse Cipher Menu", "Return to Main Menu", "Exit the Program"]  
   
-
     def rsa_chosen(self):
+      
+      os.system("cls")
+      print ("="*80 + "\n" + " "*35 + "RSA Cipher" "\n" + "="*80)
+      self.print_choices()
+
+      rsa_choice = input("Please input the number beside the action that you'd like to do: ")
+      
+      while rsa_choice not in ['1', '2', '3']:
+          print("Invalid input. Please try again.")
+          rsa_choice = input("Please input the number beside the action that you'd like to do: ")
+      
+      rsa_choice = int(rsa_choice)
+
+      # declared outside the if-else loop to make the code shorter
+      choices2 = ["Return to the RSA Cipher Menu", "Return to Main Menu", "Exit the Program"]       
+
+      if rsa_choice == 1:
         os.system("cls")
-        print ("="*80 + "\n" + " "*35 + "RSA Cipher" "\n" + "="*80)
-        self.print_choices()
-
-        rsa_choice = input("Please input the number beside the action that you'd like to do: ")
+        print ("="*80 + "\n" + " "*37 + "RSA Algorithm" "\n" + "="*80)
+        rsa_obj = Rsa()
+        rsa_obj.prime_generator()
+        rsa_obj.public_key()
+        rsa_obj.dipslay_pubkey()
+        rsa_obj.private_key()
+        rsa_obj.dipslay_privkey()
+        rsa_obj.encrypt_process()
+        rsa_obj.dipslay_ciphertext()
         
-        while rsa_choice not in ['1', '2', '3']:
-            print("Invalid input. Please try again.")
-            rsa_choice = input("Please input the number beside the action that you'd like to do: ")
-        
-        rsa_choice = int(rsa_choice)
-
-        # declared outside the if-else loop to make the code shorter
-        choices2 = ["Return to the RSA Cipher Menu", "Return to Main Menu", "Exit the Program"]       
+      elif rsa_choice == 2:
+        os.system("cls")
+        print ("="*80 + "\n" + " "*37 + "RSA Algorithm" "\n" + "="*80)
+        rsa_obj2 = Rsa()
+        rsa_obj2.decrypt_process()
+        rsa_obj2.dipslay_plaintext()
+      
+      else:
+            self.terminate()
+            
 
     def base64_chosen(self):
         os.system("cls")
