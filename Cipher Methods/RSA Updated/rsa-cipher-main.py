@@ -17,9 +17,9 @@ class Rsa():
       if generate_primes == 1:
           # Prompt the user to enter the primes
           while True:
-            self.prime1 = int(input("\n\tEnter the first prime: "))
-            self.prime2 = int(input("\tEnter the second prime: "))
-    
+            self.prime1 = check_input("\n\tEnter the first prime: ")
+            self.prime2 = check_input("\tEnter the second prime: ")
+            
             if self.prime1 not in prime_numbers or self.prime2 not in prime_numbers:
                 os.system('cls')
                 print("Invalid Primes")
@@ -28,7 +28,7 @@ class Rsa():
                 break
     
           break # breaks the loop when once the condition is satisfied
-            
+
       elif generate_primes == 2:
           self.prime1 = secrets.choice(prime_numbers)
           self.prime2 = secrets.choice(prime_numbers)
@@ -114,37 +114,45 @@ def Decrypt_user():  # function for decryption
   decryption_object.decrypt_process()
   decryption_object.dipslay_plaintext()
 
+def check_input(value): # function that checks whether the input is an integer or not
+    while True:
+        try:
+            user_input = int(input(value))
+            break
+          
+        except ValueError:
+            print("\nInvalid Input. INTEGERS only.")
+    
+    return user_input
 
 def rsa_home(): # main home
-  print("Choose Action: \n    1: ENCRYPT\n    2: DECRYPT")
-  user_action = int(input("\n    Enter Here: "))
+    while True:
+        print("\nChoose Action: \n    1: ENCRYPT\n    2: DECRYPT\n")
+        user_action = check_input("    Enter Here: ")
+  
+        if user_action == 1:
+            Encrypt_user()
+            go_home()
+            break
+        elif user_action == 2:
+            os.system('cls')
+            Decrypt_user()
+            go_home()
+            break
+        else:
+            print("Invalid Input. Please enter 1 or 2.")
 
-  if user_action == 1:
-    Encrypt_user()
-    go_home()
-
-  elif user_action == 2:
-    os.system('cls')
-    Decrypt_user()
-    go_home()
-    
-  else:
-    os.system("cls")
-    print("Invalid Option")
-    go_home()
-    
-    
 def go_home(): # function for going back to home
-  while True:
-    print("\n\n1: Home")
-    user_home = int(input("    Enter 1: "))
-    
-    if user_home == 1:
-      os.system('cls')
-      rsa_home()
-      break
-    
-    else:
-      print("Enter Again")
+    while True:
+        print("\n\n1: Home\n")
+        user_home = check_input("    Enter 1: ") # using the check_input function
+
+        if user_home == 1:
+            os.system('cls')
+            rsa_home()
+            break
+        else:
+            print("Invalid Input. Please enter 1.")
 
 rsa_home()
+
