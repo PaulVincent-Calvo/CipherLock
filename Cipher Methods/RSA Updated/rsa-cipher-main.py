@@ -1,33 +1,33 @@
-# RSA with list comprehension
 import math
 import secrets
 import os
-import string
 from sympy import primerange
 from sympy import mod_inverse
 
 class Rsa():
   
   def prime_generator(self):
+    os.system('cls')
     print("Choose Primes: \n    1: Manually \n    2: Automatically")
     prime_numbers = list(primerange(5, 700)) # generates a list of prime numbers from 5 to 700
     
     while True:
-      generate_primes = check_input("\n   Enter Here:  ") # using the function check_input
+      generate_primes = int(input("\n   Enter Here:  ")) # using the function check_input
     
       if generate_primes == 1:
           # Prompt the user to enter the primes
           while True:
-            self.prime1 = check_input("\n\tEnter the first prime: ")
-            self.prime2 = check_input("\tEnter the second prime: ")
-            
-            if self.prime1 in prime_numbers or self.prime2 in prime_numbers:
-                break
+            self.prime1 = int(input("\n\tEnter the first prime: "))
+            self.prime2 = int(input("\tEnter the second prime: "))
+    
+            if self.prime1 not in prime_numbers or self.prime2 not in prime_numbers:
+                os.system('cls')
+                print("Invalid Primes")
+              
             else:
-              os.system('cls')
-              print("Invalid Primes")
-          
-          break
+                break
+    
+          break # breaks the loop when once the condition is satisfied
             
       elif generate_primes == 2:
           self.prime1 = secrets.choice(prime_numbers)
@@ -41,9 +41,8 @@ class Rsa():
     self.n_value = self.prime1 * self.prime2
     self.totient_value = (self.prime1 - 1) * (self.prime2 - 1)
       
-#------------------------------------------------------------------------------------------
-  def public_key(self):
-    # Public Key: Choose E: it must be coprime of T and N
+      
+  def public_key(self): # Public Key: Choose E: it must be coprime of T and N
     e_basis = range(2, self.totient_value)
 
     coprimes = []
@@ -55,16 +54,18 @@ class Rsa():
     
   def dipslay_pubkey(self):
     print(f"\n\tPublic Key: ({self.e_value}, {self.n_value})\n")
-    
-#------------------------------------------------------------------------------------------
-  def private_key(self):
-    # Private Key: (D * E) % T == 1
+  
+#----------------------------------------------------------------------------
+   
+  def private_key(self):  # Condition: (D * E) % T == 1
     self.d_value = mod_inverse(self.e_value, self.totient_value) # finds the modular inverse
   
   def dipslay_privkey(self):
     print(f"\tPrivate Key: ({self.d_value}, {self.n_value})\n")
 
-#------------------------------------------------------------------------------------------
+
+
+#----------------------------------------------------------------------------
   def encrypt_process(self): # Formula: (plaintext ** e_value) % n_value
     os.system('cls')
     plaintext_letter= (input("Plaintext: "))
@@ -94,20 +95,9 @@ class Rsa():
   
   def dipslay_plaintext(self):
     print(f"\nPlaintext: {self.strg_dcrpt_ltr}")
-    
-# EXCEPTION HANDLING-------------------------------------------------------------------------
-def check_input(value): # checks whether the input is an integer or not
-    
-    try:
-      user_input = int(input(value))
-      
-    except ValueError:
-      os.system
-      print("Invalid Input. INTEGERS only.")
-    
-    return user_input
+ 
   
-# -------------------------------------------------------------------------------
+  
 def Encrypt_user(): # function for encryption
   encryption_object = Rsa()
   encryption_object.prime_generator()
@@ -118,19 +108,18 @@ def Encrypt_user(): # function for encryption
   encryption_object.encrypt_process()
   encryption_object.dipslay_ciphertext()
 
-#----------------------------------------------------------------------------------
+
 def Decrypt_user():  # function for decryption
   decryption_object = Rsa()
   decryption_object.decrypt_process()
   decryption_object.dipslay_plaintext()
 
-# -------------------------------------------------------------------------------
+
 def rsa_home(): # main home
   print("Choose Action: \n    1: ENCRYPT\n    2: DECRYPT")
   user_action = int(input("\n    Enter Here: "))
 
   if user_action == 1:
-    os.system('cls')
     Encrypt_user()
     go_home()
 
@@ -144,7 +133,7 @@ def rsa_home(): # main home
     print("Invalid Option")
     go_home()
     
-# -------------------------------------------------------------------------------
+    
 def go_home(): # function for going back to home
   while True:
     print("\n\n1: Home")
