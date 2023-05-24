@@ -160,7 +160,7 @@ def main_matrix_inverse():
         decoding_object.print_decrypted_message()
 
     def main_home():
-        print("CHOOSE ACTION:\n    1: ENCODE\n    2: DECODE\n    3: HISTORY")
+        print("CHOOSE ACTION:\n    1: ENCODE\n    2: DECODE\n")
     
         while True:
             try:
@@ -169,17 +169,11 @@ def main_matrix_inverse():
                 if user_action == 1:
                     os.system('cls')
                     Encoding_process()
-                    #go_home()
+                    go_home()
 
-                elif user_action == 2:
+                if user_action == 2:
                     os.system('cls')
                     Decoding_process()
-                    #go_home()
-
-                elif user_action == 3:
-                    os.system('cls')
-                    dataset = pd.read_csv('rsa.csv')
-                    print(dataset)
                     go_home()
         
             except ValueError:
