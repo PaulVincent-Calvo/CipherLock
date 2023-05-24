@@ -25,9 +25,13 @@ def main_home():
 
   if user_act == 2:
     user_message = str(input("Please type the message you want to decrypt: "))
-    base64_obj = base64_cipher(user_message)
-    base64_obj.print_decryption(user_message)
-    go_home()
+    if len(user_message) % 4 != 0:
+            print("UH OH it appears that you have made a mistake, please try again.")
+            go_home()
+    else:
+        base64_obj = base64_cipher(user_message)
+        base64_obj.print_decryption(user_message)
+        go_home()
     
   if user_act == 3:
     os.system('cls')
