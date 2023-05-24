@@ -588,10 +588,10 @@ class CipherLock_main():
             self.hill_chosen()
 
         elif user_choice == 5:
-            pass
+            self.matrix_inverse_chosen()
 
         elif user_choice == 6:
-            pass
+            self.rsa_chosen()
 
         elif user_choice == 7:
             self.base64_chosen()
