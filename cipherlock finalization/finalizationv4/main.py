@@ -1,6 +1,7 @@
 import os
 import CiphersForCipherLock
 from CiphersForCipherLock import Rsa
+from CiphersForCipherLock import Matrix_inverse
 
 class CipherLock_main():
     def __init__(self):
@@ -386,7 +387,8 @@ class CipherLock_main():
         
         else:
             self.terminate()      
-
+    
+    
     def matrix_inverse_chosen(self):
         os.system("cls")
         print ("="*80 + "\n" + " "*30 + "Matrix Inverse Cipher" "\n" + "="*80)
@@ -400,9 +402,30 @@ class CipherLock_main():
         
         matrix_inverse_choice = int(matrix_inverse_choice)
 
-        # declared outside the if-else loop to make the code shorter
-        choices2 = ["Return to the Matrix Inverse Cipher Menu", "Return to Main Menu", "Exit the Program"]  
-  
+      # declared outside the if-else loop to make the code shorter
+        choices2 = ["Return to the RSA Cipher Menu", "Return to Main Menu", "Exit the Program"]       
+
+
+        if matrix_inverse_choice == 1:
+          os.system("cls")
+          print ("="*80 + "\n" + " "*37 + "Matrix-Inverse Cipher" "\n" + "="*80)
+          matrix_inv_obj = Matrix_inverse()
+          matrix_inv_obj.select_size()
+          matrix_inv_obj.process_encode()
+          matrix_inv_obj.print_encrypted_message()
+        
+        elif matrix_inverse_choice == 2:
+          os.system("cls")
+          print ("="*80 + "\n" + " "*37 + "Matrix-Inverse Cipher" "\n" + "="*80)
+          matrix_inv_obj2 = Matrix_inverse()
+          matrix_inv_obj2.select_size()
+          matrix_inv_obj2.decode_process()
+          matrix_inv_obj2.print_decrypted_message()
+        
+        else:
+            self.terminate()
+            
+            
     def rsa_chosen(self):
       
       os.system("cls")
