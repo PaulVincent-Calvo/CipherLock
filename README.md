@@ -41,7 +41,7 @@
 - string
 - pandas
 - secret
-- tkinter
+- os
 
 ## Significance
 
