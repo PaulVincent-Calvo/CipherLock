@@ -1,0 +1,4 @@
+Method,|,Word/Values,:,Decoded/Encoded Words/Values
+Encode,|,wert,:,[ 6278   818 10508  1565]
+Decode,|,[23 43 54 23],:,[['y' 't' 'j' 'z']]
+Decode,|,[87 90 34 56],:,[['w' 'm' 'f' 'q']]
