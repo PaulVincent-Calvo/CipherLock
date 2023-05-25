@@ -419,7 +419,7 @@ class Rsa():
   def dipslay_privkey(self):
     print(f"\tPrivate Key: ({self.d_value}, {self.n_value})\n")
 
-  def encrypt_process(self): # Formula: (plaintext ** e_value) % n_value
+  def rsa_encryption(self): # Formula: (plaintext ** e_value) % n_value
     plaintext_letter= (input("Plaintext: "))
     strg_plaintext = [ord(letter) for letter in plaintext_letter] # `ord` function takes a single character from the plaintext and returns its Unicode code point as an integer
     self.strg_encrpt_val = [(value ** self.e_value) % self.n_value for value in strg_plaintext ] # performing the operation for encryption
@@ -430,7 +430,7 @@ class Rsa():
   def dipslay_ciphertext(self):
     print(f"\nCiphertext: {self.final_ciphtext}")
 
-  def decrypt_process(self):  # DECRYPTION: (ciphertext ** d_value) % n_value
+  def rsa_decryption(self):  # DECRYPTION: (ciphertext ** d_value) % n_value
     
     print("KEYS:")
     user_privatekey_d = int(input("   Private Key 1 (d): "))
@@ -515,7 +515,7 @@ class Matrix_inverse():
             except ValueError:
                 print("\nInvalid Input\n")
      
-    def process_encode(self): # ENCODING PROCESS
+    def matrix_inverse_encryption(self): # ENCODING PROCESS
       os.system('cls')
       print(f"NOTE:\n    The number of characters/value must be equal to the number of elements of the array size that you chose.\n\tEx. {self.matrix_size} x {self.matrix_size} ({self.matrix_size ** 2} LETTERS characters only)")
       print(f"\n    Matrix Size: {self.matrix_size} x {self.matrix_size}\n")
@@ -552,7 +552,7 @@ class Matrix_inverse():
       print(f"\n\tBasis 1D Matrix: {self.basis_matrix}")
       print(f"\n\tEncoded Message in Linear Form:{self.linear_form}")
 
-    def decode_process(self):
+    def matrix_inverse_decryption(self):
       os.system('cls')
       print(f"Enter Elements(Only Positive Integers) | Matrix Size: {self.matrix_size} x {self.matrix_size} | Required Number of Values: {self.matrix_size ** 2} \n")
       list_matrix = []  # Here we define an empty list.
