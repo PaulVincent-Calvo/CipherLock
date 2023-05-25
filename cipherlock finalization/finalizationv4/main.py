@@ -402,66 +402,142 @@ class CipherLock_main():
         matrix_inverse_choice = int(matrix_inverse_choice)
         
       # declared outside the if-else loop to make the code shorter
-        choices2 = ["Return to the RSA Cipher Menu", "Return to Main Menu", "Exit the Program"]       
+        choices2 = ["Return to the Matrix Inverse Cipher Menu", "Return to Main Menu", "Exit the Program"]       
         
         if matrix_inverse_choice == 1:
-          os.system("cls")
-          print ("="*80 + "\n" + " "*37 + "Matrix-Inverse Cipher" "\n" + "="*80)
-          matrix_inv_obj = Matrix_inverse()
-          matrix_inv_obj.select_size()
-          matrix_inv_obj.matrix_inverse_encryption()
-          matrix_inv_obj.print_encrypted_message()
-        
+            os.system("cls")
+            print ("="*80 + "\n" + " "*37 + "Matrix-Inverse Cipher" "\n" + "="*80)
+            matrix_inv_obj = Matrix_inverse()
+            matrix_inv_obj.select_size()
+            matrix_inv_obj.matrix_inverse_encryption()
+            matrix_inv_obj.print_encrypted_message()
+            
+            # after encrypting, asks if the user wants to encrypt/decrypt again, go back to the main menu to choose a different cipher, or terminate the program
+            print ("\nWhat would you like to do?")
+            for index, choice in enumerate(choices2):
+                print (f"[{index + 1}] {choice}")
+
+            matrix_inverse_choice2 = input("Please input the number beside the action that you'd like to do: ")
+            while matrix_inverse_choice2 not in ['1', '2', '3']:
+                print("Invalid input. Please try again.")
+                matrix_inverse_choice2 = input("Please input the number beside the action that you'd like to do: ")
+            
+            matrix_inverse_choice2 = int(matrix_inverse_choice2)
+
+            if matrix_inverse_choice2 == 1:
+                self.matrix_inverse_chosen()
+            
+            elif matrix_inverse_choice2 == 2:
+                self.main()
+            
+            else:
+                self.terminate()
+                
         elif matrix_inverse_choice == 2:
-          os.system("cls")
-          print ("="*80 + "\n" + " "*37 + "Matrix-Inverse Cipher" "\n" + "="*80)
-          matrix_inv_obj2 = Matrix_inverse()
-          matrix_inv_obj2.select_size()
-          matrix_inv_obj2.matrix_inverse_encryption()
-          matrix_inv_obj2.print_decrypted_message()
-        
+            os.system("cls")
+            print ("="*80 + "\n" + " "*37 + "Matrix-Inverse Cipher" "\n" + "="*80)
+            matrix_inv_obj2 = Matrix_inverse()
+            matrix_inv_obj2.select_size()
+            matrix_inv_obj2.matrix_inverse_encryption()
+            matrix_inv_obj2.print_decrypted_message()
+            
+            # after decrypting, asks if the user wants to encrypt/decrypt again, go back to the main menu to choose a different cipher, or terminate the program
+            print ("\nWhat would you like to do?")
+            for index, choice in enumerate(choices2):
+                print (f"[{index + 1}] {choice}")
+
+            matrix_inverse_choice2 = input("Please input the number beside the action that you'd like to do: ")
+            while matrix_inverse_choice2 not in ['1', '2', '3']:
+                print("Invalid input. Please try again.")
+                matrix_inverse_choice2 = input("Please input the number beside the action that you'd like to do: ")
+            
+            matrix_inverse_choice2 = int(matrix_inverse_choice2)
+
+            if matrix_inverse_choice2 == 1:
+                self.matrix_inverse_chosen()
+                
         else:
             self.terminate()
             
-            
     def rsa_chosen(self):
       
-      os.system("cls")
-      print ("="*80 + "\n" + " "*35 + "RSA Cipher" "\n" + "="*80)
-      self.print_choices()
-
-      rsa_choice = input("Please input the number beside the action that you'd like to do: ")
-      
-      while rsa_choice not in ['1', '2', '3']:
-          print("Invalid input. Please try again.")
-          rsa_choice = input("Please input the number beside the action that you'd like to do: ")
-      
-      rsa_choice = int(rsa_choice)
-
-      # declared outside the if-else loop to make the code shorter
-      choices2 = ["Return to the RSA Cipher Menu", "Return to Main Menu", "Exit the Program"]       
-
-      if rsa_choice == 1:
         os.system("cls")
-        print ("="*80 + "\n" + " "*37 + "RSA Algorithm" "\n" + "="*80)
-        rsa_obj = Rsa()
-        rsa_obj.prime_generator()
-        rsa_obj.public_key()
-        rsa_obj.dipslay_pubkey()
-        rsa_obj.private_key()
-        rsa_obj.dipslay_privkey()
-        rsa_obj.rsa_encryption()
-        rsa_obj.dipslay_ciphertext()
-        
-      elif rsa_choice == 2:
-        os.system("cls")
-        print ("="*80 + "\n" + " "*37 + "RSA Algorithm" "\n" + "="*80)
-        rsa_obj2 = Rsa()
-        rsa_obj2.rsa_decryption()
-        rsa_obj2.dipslay_plaintext()
+        print ("="*80 + "\n" + " "*35 + "RSA Cipher" "\n" + "="*80)
+        self.print_choices()
+
+        rsa_choice = input("Please input the number beside the action that you'd like to do: ")
       
-      else:
-            self.terminate()
+        while rsa_choice not in ['1', '2', '3']:
+            print("Invalid input. Please try again.")
+            rsa_choice = input("Please input the number beside the action that you'd like to do: ")
+      
+        rsa_choice = int(rsa_choice)
+
+        # declared outside the if-else loop to make the code shorter
+        choices2 = ["Return to the RSA Cipher Menu", "Return to Main Menu", "Exit the Program"]       
+
+        if rsa_choice == 1:
+            os.system("cls")
+            print ("="*80 + "\n" + " "*37 + "RSA Algorithm" "\n" + "="*80)
+            rsa_obj = Rsa()
+            rsa_obj.prime_generator()
+            rsa_obj.public_key()
+            rsa_obj.dipslay_pubkey()
+            rsa_obj.private_key()
+            rsa_obj.dipslay_privkey()
+            rsa_obj.rsa_encryption()
+            rsa_obj.dipslay_ciphertexrsa
+            # after encrypting, asks if the user wants to encrypt/decrypt again, go back to the main menu to choose a different cipher, or terminate the program
+            print ("\nWhat would you like to do?")
+            for index, choice in enumerate(choices2):
+                print (f"[{index + 1}] {choice}")
+
+            rsa_choice2 = input("Please input the number beside the action that you'd like to do: ")
+            while rsa_choice2 not in ['1', '2', '3']:
+                print("Invalid input. Please try again.")
+                rsa_choice2 = input("Please input the number beside the action that you'd like to do: ")
+            
+            rsa_choice2 = int(base64_choice2)
+
+            if rsa_choice2 == 1:
+                self.rsa_chosen()
+            
+            elif rsa_choice2 == 2:
+                self.main()
+            
+            else:
+                self.terminate()
+                
+        elif rsa_choice == 2:
+            os.system("cls")
+            print ("="*80 + "\n" + " "*37 + "RSA Algorithm" "\n" + "="*80)
+            rsa_obj2 = Rsa()
+            rsa_obj2.rsa_decryption()
+            rsa_obj2.dipslay_plaintext()
+
+            # after decrypting, asks if the user wants to encrypt/decrypt again, go back to the main menu to choose a different cipher, or terminate the program
+            print ("\nWhat would you like to do?")
+            for index, choice in enumerate(choices2):
+                print (f"[{index + 1}] {choice}")
+
+            rsa_choice2 = input("Please input the number beside the action that you'd like to do: ")
+            while rsa_choice2 not in ['1', '2', '3']:
+                print("Invalid input. Please try again.")
+                rsa_choice2 = input("Please input the number beside the action that you'd like to do: ")
+            
+            rsa_choice2 = int(base64_choice2)
+
+            if rsa_choice2 == 1:
+                self.rsa_chosen()
+            
+            elif rsa_choice2 == 2:
+                self.main()
+            
+            else:
+                self.terminate()
+                
+        else:
+                self.terminate()
             
     def base64_chosen(self):
         os.system("cls")
@@ -506,7 +582,10 @@ class CipherLock_main():
             
             elif base64_choice2 == 2:
                 self.main()
-
+            
+            else:
+                self.terminate()
+                
         elif base64_choice == 2:
             os.system("cls")
             print ("="*80 + "\n" + " "*37 + "Base64 Cipher" "\n" + "="*80)
