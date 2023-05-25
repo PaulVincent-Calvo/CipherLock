@@ -420,9 +420,7 @@ class Rsa():
     print(f"\tPrivate Key: ({self.d_value}, {self.n_value})\n")
 
   def encrypt_process(self): # Formula: (plaintext ** e_value) % n_value
-    #os.system('cls')
     plaintext_letter= (input("Plaintext: "))
-  
     strg_plaintext = [ord(letter) for letter in plaintext_letter] # `ord` function takes a single character from the plaintext and returns its Unicode code point as an integer
     self.strg_encrpt_val = [(value ** self.e_value) % self.n_value for value in strg_plaintext ] # performing the operation for encryption
     strg_encrpt_ltr = [chr(encrypt_val) for encrypt_val in self.strg_encrpt_val] # maps the corresponding character of a value in its Unicode point
@@ -467,9 +465,9 @@ class Matrix_inverse():
         alphabet = np.array(['a','b','c','d','e','f','g','h','i','j',
                                     'k','l','m','n','o','p','q','r','s','t',
                                     'u','v','w','x','y','z','_'])
-
+        
         self.alphabet = np.concatenate((first_char, np.tile(alphabet, 50))) # used to join the first character array with 50 copies of the alphabet array. This results in an array of 1300 characters (26 letters + 1 underscore) repeated 50 times, with $ as the first character.
-       
+        
     def select_size(self):
         print("Choose Size of the Matrix:")
         print("\t2). 2 x 2\n\t3). 3 x 3\n\t4). 4 x 4\n\t5). 5 x 5\n\t6). 6 x 6\n\t7). 7 x 7\n\t8). 8 x 8\n\t9). 9 x 9\n")
@@ -510,7 +508,7 @@ class Matrix_inverse():
                 if (self.matrix_size) == 9:
                     self.matrix_basis = np.array([[29, 29, 6, 15, 18, 28, 23, 5, 9], [28, 27, 28, 5, 7, 21, 28, 6, 26], [14, 3, 8, 7, 12, 21, 18, 5, 20], [28, 4, 14, 5, 7, 4, 29, 13, 12], [8, 5, 23, 25, 26, 5, 13, 15, 3], [9, 27, 29, 8, 27, 10, 10, 29, 23], [2, 20, 9, 10, 25, 11, 24, 16, 23], [16, 8, 22, 18, 24, 19, 19, 19, 21], [6, 29, 22, 12, 25, 11, 27, 27, 6]]) 
                     break
-
+                    
                 else:
                     print("\nVALUE ERROR")
             
