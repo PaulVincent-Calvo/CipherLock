@@ -409,7 +409,7 @@ class CipherLock_main():
           print ("="*80 + "\n" + " "*37 + "Matrix-Inverse Cipher" "\n" + "="*80)
           matrix_inv_obj = Matrix_inverse()
           matrix_inv_obj.select_size()
-          matrix_inv_obj.process_encode()
+          matrix_inv_obj.matrix_inverse_encryption()
           matrix_inv_obj.print_encrypted_message()
         
         elif matrix_inverse_choice == 2:
@@ -417,7 +417,7 @@ class CipherLock_main():
           print ("="*80 + "\n" + " "*37 + "Matrix-Inverse Cipher" "\n" + "="*80)
           matrix_inv_obj2 = Matrix_inverse()
           matrix_inv_obj2.select_size()
-          matrix_inv_obj2.decode_process()
+          matrix_inv_obj2.matrix_inverse_encryption()
           matrix_inv_obj2.print_decrypted_message()
         
         else:
@@ -450,14 +450,14 @@ class CipherLock_main():
         rsa_obj.dipslay_pubkey()
         rsa_obj.private_key()
         rsa_obj.dipslay_privkey()
-        rsa_obj.encrypt_process()
+        rsa_obj.rsa_encryption()
         rsa_obj.dipslay_ciphertext()
         
       elif rsa_choice == 2:
         os.system("cls")
         print ("="*80 + "\n" + " "*37 + "RSA Algorithm" "\n" + "="*80)
         rsa_obj2 = Rsa()
-        rsa_obj2.decrypt_process()
+        rsa_obj2.rsa_decryption()
         rsa_obj2.dipslay_plaintext()
       
       else:
