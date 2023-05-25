@@ -76,7 +76,6 @@ class vigenere_cipher (shift_cipher):
             except ValueError:
                 print("Invalid input. Please enter an integer.")
 
-
         list_of_keys = []
         for i in range (no_of_keys):
             # validate the keys input
@@ -227,7 +226,6 @@ class hill_cipher():
                 msg2d[1][itr2] = int(ord(msg[i])-65)
                 itr2 += 1
         
-
         key = str(cipher_key)
         key = key.upper().replace(" ", "")
 
@@ -258,7 +256,6 @@ class hill_cipher():
             print("Brother, I think you used the wrong key. Please, try again.")
             sys.exit()
     
-
         encrypted_message = ""
         itr_count = int(len(msg)/2)
         if len_chk == 0:
@@ -365,7 +362,6 @@ class hill_cipher():
                 decrypted_message += chr((temp2 % 26) + 65)
 
         return decrypted_message
-
     
 class Rsa():
   
@@ -403,8 +399,7 @@ class Rsa():
     # Important Values
     self.n_value = self.prime1 * self.prime2
     self.totient_value = (self.prime1 - 1) * (self.prime2 - 1)
-      
-      
+            
   def public_key(self): # Public Key: Choose E: it must be coprime of T and N
     e_basis = range(2, self.totient_value)
 
@@ -425,8 +420,6 @@ class Rsa():
   
   def dipslay_privkey(self):
     print(f"\tPrivate Key: ({self.d_value}, {self.n_value})\n")
-
-
 
 #----------------------------------------------------------------------------
   def encrypt_process(self): # Formula: (plaintext ** e_value) % n_value
@@ -455,11 +448,9 @@ class Rsa():
 
     strg_dcrpt_val = [(ciphval ** user_privatekey_d) % user_privatekey_n for ciphval in storage_ciphtext] # performing the operation for decryption
     self.strg_dcrpt_ltr = [chr(decrypt_val) for decrypt_val in strg_dcrpt_val]  # maps the corresponding character of a value in its Unicode point
-    
-  
+      
   def dipslay_plaintext(self):
     print(f"\nPlaintext: {self.strg_dcrpt_ltr}")
-
 
 def check_input(value): # function that checks whether the input is an integer or not
     while True:
@@ -471,8 +462,6 @@ def check_input(value): # function that checks whether the input is an integer o
             print("\nInvalid Input. INTEGERS only.")
     
     return user_input
-
-
 
 class Matrix_inverse():
 
@@ -532,9 +521,7 @@ class Matrix_inverse():
             
             except ValueError:
                 print("\nInvalid Input\n")
-    
-    
-    
+     
     def process_encode(self): # ENCODING PROCESS
       os.system('cls')
       print(f"NOTE:\n    The number of characters/value must be equal to the number of elements of the array size that you chose.\n\tEx. {self.matrix_size} x {self.matrix_size} ({self.matrix_size ** 2} LETTERS characters only)")
@@ -555,7 +542,6 @@ class Matrix_inverse():
       copy_encode_chars = self.encode_chars.copy()
       orig_indices = self.alphabet.argsort() # Returns the indices that would sort the alphabet array
       self.basis_matrix = orig_indices[np.searchsorted(self.alphabet[orig_indices], copy_encode_chars)] # Makes the array 1D : used to find the indices where elements in copy_encode_chars should be inserted into the sorted array
-
   
       # Reshaping the Basis  1`  1D Matrix:
       basis_matrix1d = self.basis_matrix.reshape((self.matrix_size, self.matrix_size)) # Reshapes the matrix into a specified dimension depending on the indicated size of the user.
@@ -567,13 +553,11 @@ class Matrix_inverse():
         
       # Converts the Resulting Matrix into 1D:
       self.linear_form = np.reshape(self.resulting_mtrx, -1, order='F') # Reads 2D array column by column and create 1D array from it
-      
-      
+           
     def print_encrypted_message(self):
       print(f"\n\tCharacters: {self.encode_chars}")
       print(f"\n\tBasis 1D Matrix: {self.basis_matrix}")
       print(f"\n\tEncoded Message in Linear Form:{self.linear_form}")
-
 
     def decode_process(self):
       os.system('cls')
@@ -604,8 +588,5 @@ class Matrix_inverse():
       self.finalDecoded = (np.rint(decoded_linearForm)).astype(int) # CONVERTS FLOAT TYPE TO INTEGER
       self.decodedChar = self.alphabet[self.finalDecoded] # Each value loops through the alphabet list
       
-
     def print_decrypted_message(self):
       print (f"\n\tDecoded Characters: {self.decodedChar}")
-
-
