@@ -20,7 +20,7 @@
 ##  UML Diagram 
 <p align="center">
   <picture align="center">
-    <img alt="final_uml" src="[assets for readme file/final_uml.png](https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/main/assets%20for%20readme%20file/CipherLockUML.png)" width="2000" height="600">
+    <img alt="final_uml" src="https://github.com/PaulVincent-Calvo/Cipher-Program-Proposal/blob/96bdca0f38114100a100c2521ece46c478095f86/assets%20for%20readme%20file/CipherLockUML.png" width="2000" height="600">
  </picture>
 </p>
 
