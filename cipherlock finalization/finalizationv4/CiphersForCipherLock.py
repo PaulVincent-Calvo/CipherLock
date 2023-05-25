@@ -413,15 +413,12 @@ class Rsa():
   def dipslay_pubkey(self):
     print(f"\n\tPublic Key: ({self.e_value}, {self.n_value})\n")
   
-#----------------------------------------------------------------------------
-   
   def private_key(self):  # Condition: (D * E) % T == 1
     self.d_value = mod_inverse(self.e_value, self.totient_value) # finds the modular inverse
   
   def dipslay_privkey(self):
     print(f"\tPrivate Key: ({self.d_value}, {self.n_value})\n")
 
-#----------------------------------------------------------------------------
   def encrypt_process(self): # Formula: (plaintext ** e_value) % n_value
     #os.system('cls')
     plaintext_letter= (input("Plaintext: "))
@@ -435,7 +432,6 @@ class Rsa():
   def dipslay_ciphertext(self):
     print(f"\nCiphertext: {self.final_ciphtext}")
 
-#------------------------------------------------------------------------------------------
   def decrypt_process(self):  # DECRYPTION: (ciphertext ** d_value) % n_value
     
     print("KEYS:")
@@ -474,7 +470,6 @@ class Matrix_inverse():
 
         self.alphabet = np.concatenate((first_char, np.tile(alphabet, 50))) # used to join the first character array with 50 copies of the alphabet array. This results in an array of 1300 characters (26 letters + 1 underscore) repeated 50 times, with $ as the first character.
        
-#---------------------------------------------------------------------------------
     def select_size(self):
         print("Choose Size of the Matrix:")
         print("\t2). 2 x 2\n\t3). 3 x 3\n\t4). 4 x 4\n\t5). 5 x 5\n\t6). 6 x 6\n\t7). 7 x 7\n\t8). 8 x 8\n\t9). 9 x 9\n")
