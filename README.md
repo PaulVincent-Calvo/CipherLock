@@ -8,9 +8,8 @@
 
 #### <p align="center"> A Cipher program intended to encrypt or decrypt messages using various ciphers. </p>
 
-
-<a href="CipherLock Main" style="font-family: Arial; font-size: 25px;">Please open the CipherLock Main folder to access the main.py</a>
-<a href="CipherLock Main" style="font-family: Arial; font-size: 25px;">           Click on this Link</a>
+<a href="CipherLock Main" style="font-family: Arial; font-size: 25px;">Please open the CipherLock Main folder to access the main.py<br></a>
+<a href="CipherLock Main" style="font-family: Arial; font-size: 25px;">Click on this Link</a>
 
 ## Ciphers to be used in the program
 1. [**Caesar Cipher**](https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/ "What is the Caesar Cipher")
