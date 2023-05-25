@@ -8,10 +8,11 @@
 
 #### <p align="center"> A Cipher program intended to encrypt or decrypt messages using various ciphers. </p>
 
-<a href="CipherLock Main" style="font-family: Arial; font-size: 25px;">Please open the CipherLock Main folder to access the main.py<br></a>
-<a href="CipherLock Main" style="font-family: Arial; font-size: 25px;">Click on this Link</a>
-
-<a href="https://www.youtube.com/watch?v=XmB_psI3Y3U" style="font-family: Arial; font-size: 25px;">Click on this to watch the video presentation.</a>
+<p align="center">
+    To access the main.py file, please open the <a href="CipherLock Main" style="font-family: Arial; font-size: 25px;">CipherLock Main folder<br></a>
+  To watch the video presentation, click on this <a href="CipherLock Main" style="font-family: Arial; font-size: 25px;">Link</a>
+  <a href="https://www.youtube.com/watch?v=XmB_psI3Y3U" style="font-family: Arial; font-size: 25px;"> </a>
+</p>
 
 
 ## Ciphers to be used in the program
