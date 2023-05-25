@@ -453,8 +453,9 @@ class Rsa():
     ciphertext = input("Ciphertext: ")
     storage_ciphtext = [ord(text) for text in ciphertext] # takes the each character in ciphertext and finds its corresponding value in Unicode point
 
-    strg_dcrpt_val = [(ciphval ** user_privatekey_d) % user_privatekey_n for ciphval in storage_ciphtext]
-    self.strg_dcrpt_ltr = [chr(decrypt_val) for decrypt_val in strg_dcrpt_val]
+    strg_dcrpt_val = [(ciphval ** user_privatekey_d) % user_privatekey_n for ciphval in storage_ciphtext] # performing the operation for decryption
+    self.strg_dcrpt_ltr = [chr(decrypt_val) for decrypt_val in strg_dcrpt_val]  # maps the corresponding character of a value in its Unicode point
+    
   
   def dipslay_plaintext(self):
     print(f"\nPlaintext: {self.strg_dcrpt_ltr}")
