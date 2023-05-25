@@ -388,24 +388,22 @@ class CipherLock_main():
         else:
             self.terminate()      
     
-    
     def matrix_inverse_chosen(self):
         os.system("cls")
         print ("="*80 + "\n" + " "*30 + "Matrix Inverse Cipher" "\n" + "="*80)
         self.print_choices()
 
         matrix_inverse_choice = input("Please input the number beside the action that you'd like to do: ")
-        
+       
         while matrix_inverse_choice not in ['1', '2', '3']:
             print("Invalid input. Please try again.")
             matrix_inverse_choice = input("Please input the number beside the action that you'd like to do: ")
         
         matrix_inverse_choice = int(matrix_inverse_choice)
-
+        
       # declared outside the if-else loop to make the code shorter
         choices2 = ["Return to the RSA Cipher Menu", "Return to Main Menu", "Exit the Program"]       
-
-
+        
         if matrix_inverse_choice == 1:
           os.system("cls")
           print ("="*80 + "\n" + " "*37 + "Matrix-Inverse Cipher" "\n" + "="*80)
@@ -465,7 +463,6 @@ class CipherLock_main():
       else:
             self.terminate()
             
-
     def base64_chosen(self):
         os.system("cls")
         print ("="*80 + "\n" + " "*37 + "Base64 Cipher" "\n" + "="*80)
@@ -549,7 +546,6 @@ class CipherLock_main():
                 self.terminate()
 
         
-
     def terminate (self):
         os.system("cls")
         print ("="*80 + "\n" + " "*35 + "CipherLock" + "\n" + "="*80)
