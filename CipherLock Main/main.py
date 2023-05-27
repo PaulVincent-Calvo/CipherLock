@@ -497,7 +497,7 @@ class CipherLock_main():
                 print("Invalid input. Please try again.")
                 rsa_choice2 = input("Please input the number beside the action that you'd like to do: ")
             
-            rsa_choice2 = int(base64_choice2)
+            rsa_choice2 = int(rsa_choice2)
 
             if rsa_choice2 == 1:
                 self.rsa_chosen()
@@ -525,7 +525,7 @@ class CipherLock_main():
                 print("Invalid input. Please try again.")
                 rsa_choice2 = input("Please input the number beside the action that you'd like to do: ")
             
-            rsa_choice2 = int(base64_choice2)
+            rsa_choice2 = int(rsa_choice2)
 
             if rsa_choice2 == 1:
                 self.rsa_chosen()
